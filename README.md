@@ -69,9 +69,7 @@ dotnet test
 
 ## 📷 Exemplo Visual
 
-> Exemplo de execução bem-sucedida de teste de cadastro:
 
-![Exemplo de teste](./docs/test-success-example.png)
 
 ---
 
