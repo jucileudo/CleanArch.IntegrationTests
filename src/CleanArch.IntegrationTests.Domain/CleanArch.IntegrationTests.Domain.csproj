@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArch.IntegrationTests.CrossCutting\CleanArch.IntegrationTests.CrossCutting.csproj" />
+  </ItemGroup>
+
 </Project>
