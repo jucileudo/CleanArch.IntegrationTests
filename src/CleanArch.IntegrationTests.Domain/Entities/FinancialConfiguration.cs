@@ -11,6 +11,7 @@ namespace CleanArch.IntegrationTests.Domain.Entities
         public Guid UserId { get; private set; }
         public int ConfigurationVersion { get; private set; }
         public decimal HourlyRate { get; private set; }
+        public DateTime RegistrationDate { get; set; }
 
         protected FinancialConfiguration() { }
 
@@ -22,6 +23,7 @@ namespace CleanArch.IntegrationTests.Domain.Entities
             UserId = userId;
             ConfigurationVersion = configurationVersion;
             RegisteredAt = DateTime.UtcNow;
+            RegistrationDate = DateTime.UtcNow;
 
             Validate();
             HourlyRate = customHourlyRate ?? CalculateHourlyRate();
