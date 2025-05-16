@@ -43,5 +43,10 @@ namespace CleanArch.IntegrationTests.Domain.Entities
             if (!Enum.IsDefined(typeof(ContractType), ContractType))
                 throw new Exception("Invalid contract type.");
         }
+
+        public void Disable()
+        {
+            Active = false;
+        }
     }
 }

@@ -15,13 +15,13 @@ namespace CleanArch.IntegrationTests.CrossCutting.Common
         }
 
         public OperationMessage Info(int spec, string description)
-            => new(BuildCode("INF", spec), description);
+            => new(BuildCode("info", spec), description);
 
         public OperationMessage BusinessError(int spec, string description)
-            => new(BuildCode("BUS", spec), description);
+            => new(BuildCode("negocio", spec), description);
 
         public OperationMessage SystemError(int spec, string description)
-            => new(BuildCode("SYS", spec), description);
+            => new(BuildCode("sistema", spec), description);
 
         private string BuildCode(string prefix, int spec)
         {
