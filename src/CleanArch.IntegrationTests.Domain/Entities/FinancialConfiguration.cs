@@ -44,7 +44,7 @@ namespace CleanArch.IntegrationTests.Domain.Entities
                 throw new Exception("Invalid contract type.");
         }
 
-        public void Disable()
+        public void Deactivate()
         {
             Active = false;
         }
