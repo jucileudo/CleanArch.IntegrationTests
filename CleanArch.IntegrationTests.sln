@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.IntegrationTests.Application", "src\CleanArch.IntegrationTests.Application\CleanArch.IntegrationTests.Application.csproj", "{05C3A68E-8A2F-420D-8957-6DB08F7C9AE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.IntegrationTests.Api", "src\CleanArch.IntegrationTests.Api\CleanArch.IntegrationTests.Api.csproj", "{8DDE8023-97EF-476F-A9F0-90EA4B14C798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.IntegrationTests.Contracts", "src\CleanArch.IntegrationTests.Contracts\CleanArch.IntegrationTests.Contracts.csproj", "{0346697A-4949-4554-ADF4-EBACF5A3C72A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{8DDE8023-97EF-476F-A9F0-90EA4B14C798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DDE8023-97EF-476F-A9F0-90EA4B14C798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DDE8023-97EF-476F-A9F0-90EA4B14C798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0346697A-4949-4554-ADF4-EBACF5A3C72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0346697A-4949-4554-ADF4-EBACF5A3C72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0346697A-4949-4554-ADF4-EBACF5A3C72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0346697A-4949-4554-ADF4-EBACF5A3C72A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{01D671A1-5AD1-3283-8910-0BE0C07717DB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{05C3A68E-8A2F-420D-8957-6DB08F7C9AE6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8DDE8023-97EF-476F-A9F0-90EA4B14C798} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0346697A-4949-4554-ADF4-EBACF5A3C72A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13AF97D2-480A-4587-BC1B-273E8BA7176D}

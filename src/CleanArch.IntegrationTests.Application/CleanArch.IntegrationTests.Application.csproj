@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArch.IntegrationTests.Contracts\CleanArch.IntegrationTests.Contracts.csproj" />
+    <ProjectReference Include="..\CleanArch.IntegrationTests.CrossCutting\CleanArch.IntegrationTests.CrossCutting.csproj" />
+    <ProjectReference Include="..\CleanArch.IntegrationTests.Domain\CleanArch.IntegrationTests.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
